@@ -1,0 +1,93 @@
+
+*{
+  overflow: hidden;
+}
+.login-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  background: #f2f2f2;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%; 
+  max-width: 500px; 
+}
+
+
+.login-form {
+  margin: 0 auto;
+  padding: 20px 40px; 
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  background: #007BFF;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+
+
+.user-list-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.user-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-list-table th,
+.user-list-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-list-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.user-list-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-list-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+@media (max-width: 600px) {
+  .user-list-table {
+    font-size: 14px;  }
+}
+
+.navigate{
+  text-decoration: none;
+  color: #0056b3;
+}
+
+
